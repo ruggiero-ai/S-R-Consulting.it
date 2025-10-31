@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ruggiero-ai.github.io/S-R-Consulting.it/sitemap.xml

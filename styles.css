@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #0F172A;
+  color: #E2E8F0;
+  line-height: 1.6;
+}
+
+header {
+  background: rgba(15, 23, 42, 0.9);
+  padding: 1rem 0;
+  border-bottom: 1px solid #1E293B;
+}
+
+header .container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #38BDF8;
+  font-weight: 600;
+}
+
+nav a {
+  color: #E2E8F0;
+  text-decoration: none;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #38BDF8;
+}
+
+#hero {
+  background: linear-gradient(135deg, #1E293B, #0F172A);
+  text-align: center;
+  padding: 6rem 1rem;
+}
+
+#hero h2 {
+  font-size: 2rem;
+  color: #F8FAFC;
+  margin-bottom: 1rem;
+}
+
+#hero p {
+  color: #CBD5E1;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: #38BDF8;
+  color: #0F172A;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0EA5E9;
+  color: white;
+}
+
+.container {
+  width: 90%;
+  margin: 3rem auto;
+}
+
+h2 {
+  color: #38BDF8;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #1E293B;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+.services-list {
+  list-style: none;
+}
+
+.services-list li {
+  background: #1E293B;
+  margin-bottom: 0.8rem;
+  padding: 1rem;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.services-list li:hover {
+  transform: translateY(-4px);
+}
+
+footer {
+  background: #0B1220;
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #94A3B8;
+  font-size: 0.9rem;
+  border-top: 1px solid #1E293B;
+}
