@@ -1,1 +1,0 @@
-document.getElementById('year').textContent=new Date().getFullYear();document.getElementById('contact-form').addEventListener('submit',e=>{e.preventDefault();document.getElementById('form-feedback').textContent='Richiesta inviata! Ti contatteremo presto.';e.target.reset();});
