@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>S&amp;R Consulting srls — Consulenza Fiscale e Contabile</title>
+  <meta name="description" content="S&amp;R Consulting srls - servizi di consulenza fiscale, contabile e amministrativa per imprese e professionisti.">
+  <meta name="author" content="S&amp;R Consulting srls">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand">S&amp;R Consulting srls</h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#services">Servizi</a></li>
+          <li><a href="#about">Chi siamo</a></li>
+          <li><a href="#contact">Contatti</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container">
+        <h2>Consulenza fiscale, contabile e amministrativa per imprese e professionisti</h2>
+        <p>S&amp;R Consulting srls offre servizi di alta qualità in ambito contabile, fiscale e amministrativo, con sede a Palermo.</p>
+        <a href="#contact" class="btn">Richiedi una consulenza</a>
+      </div>
+    </section>
+
+    <section id="services" class="container section">
+      <h2>I nostri servizi</h2>
+      <div class="cards">
+        <article class="card"><h3>Dichiarazioni fiscali</h3><p>Predisposizione e invio delle dichiarazioni per persone fisiche e giuridiche.</p></article>
+        <article class="card"><h3>Gestione contabile</h3><p>Tenuta contabilità, liquidazioni IVA, bilanci e adempimenti fiscali.</p></article>
+        <article class="card"><h3>Consulenza del lavoro</h3><p>Elaborazione buste paga e gestione adempimenti previdenziali.</p></article>
+        <article class="card"><h3>Pianificazione fiscale</h3><p>Ottimizzazione fiscale e consulenza strategica per PMI e professionisti.</p></article>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>Chi siamo</h2>
+      <p><strong>S&amp;R Consulting srls</strong> è una società specializzata in consulenza fiscale, contabile e del lavoro con sede a Palermo. Forniamo assistenza personalizzata con approccio professionale e trasparente.</p>
+      <ul>
+        <li><strong>Partita IVA:</strong> 07327860826</li>
+        <li><strong>REA:</strong> PA-452013</li>
+        <li><strong>Indirizzo:</strong> Via G. Pacini 12, Palermo (PA)</li>
+        <li><strong>Email:</strong> info.srconsulting.srls@gmail.com</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Contatti</h2>
+      <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+        <label>Nome e Cognome<input type="text" name="name" required></label>
+        <label>Email<input type="email" name="email" required></label>
+        <label>Oggetto<input type="text" name="subject" required></label>
+        <label>Messaggio<textarea name="message" rows="5" required></textarea></label>
+        <label><input type="checkbox" required> Acconsento al trattamento dei miei dati personali (GDPR).</label>
+        <button type="submit" class="btn">Invia</button>
+      </form>
+      <p id="form-feedback"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> S&amp;R Consulting srls — Tutti i diritti riservati.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
